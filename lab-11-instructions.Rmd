@@ -5,11 +5,11 @@ lab_number: 11
 date: '2021-04-05'
 bibliography: decarbonization.bib
 output: 
+  github_document:
+    toc: yes
   pdf_document: 
     includes:
       in_header: ees3310.sty
-    toc: yes
-  github_document:
     toc: yes
   word_document:
     toc: yes
